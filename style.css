@@ -120,7 +120,6 @@ img {
 .navbar {
   display: flex;
   flex-direction: row;
-
   list-style: none;
   text-decoration: none;
   gap: 30px;
@@ -166,7 +165,7 @@ nav {
   height: 80px;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(55, 54, 53);
+  background-color: rgb(234, 122, 9);
 }
 nav ul {
   display: flex;
