@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
- <link rel="stylesheet" href="../style.css">
-  </head>
-
-  <body>
-     <header class="site-header">
-      <nav>
-        <a href="./index.html" class="logo">
-          <img class="image" src="../assets/r.jpg" alt="Logo" width="40" height="40" />
-        </a>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../pages/contact.html">Contact</a></li>
-          <li><a href="../pages/About.html">About</a></li>
-        </ul>
-      </nav>
-      <h1 class="title"><u>Foodie</u></h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Placed - Foodie</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="../index.html" class="logo">
+                <img src="../assets/r.jpg" alt="Foodie Logo">
+                <span class="logo-text">Foodie</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="order">
-      <h2>🎉 Order Placed Successfully!</h2>
-      <p>Thank you for order !.</p>
-    </section><br><br>
-   
+    <main style="min-height: 60vh; display: flex; align-items: center; justify-content: center; padding: 2rem;">
+        <section class="order-success">
+            <h2>🎉 Order Placed Successfully!</h2>
+            <p>Thank you for your order! Your delicious food will be delivered soon.</p>
+            <p style="margin-top: 1.5rem; font-size: 1.1rem;">We'll send you updates on your order status.</p>
+            <div style="margin-top: 2rem;">
+                <a href="../index.html" class="btn" style="margin-right: 1rem;">Back to Home</a>
+                <a href="../index.html" class="btn" style="background: white; color: #44a08d;">Order More</a>
+            </div>
+        </section>
+    </main>
 
-      <footer class="footer bottom" >
-      <br /><br />
-      <p>Contact 📧 Email: support@foodorder.com</p>
-   
-
-      <p>📞 Phone: +91 98765 43210 📍 Address: Chennai, India</p>
-      
-
-      <p>Follow Us 🌐 Website | 📘 Facebook | 📸 Instagram</p>
-      
-
-      <p>© 2025 Food Order. All Rights Reserved.</p>
+    <footer class="footer" style="margin-top: 0;">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>📧 support@foodorder.com</p>
+                <p>📞 +91 98765 43210</p>
+                <p>📍 Chennai, Tamil Nadu, India</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <p><a href="../index.html">Home</a></p>
+                <p><a href="about.html">About Us</a></p>
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <p>🌐 Website</p>
+                <p>📘 Facebook</p>
+                <p>📸 Instagram</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Foodie. All Rights Reserved.</p>
+        </div>
     </footer>
-  </body>
+</body>
 </html>
